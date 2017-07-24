@@ -1,1 +1,129 @@
-estilos
+* 
+{list-style-type: none;
+margin: 0px;
+padding: 0px;}
+
+img {
+box-shadow: 2px 2px 2px #02010a;
+-moz-box-shadow: 2px 2px 2px #02010a;
+-webkit-box-shadow: 2px 2px 2px #02010a;}
+
+body
+{background-color: #02010a;
+font-family: 'Dancing Script';
+animation: suberebota 1s;}
+
+@-webkit-keyframes suberebota {
+	0% {margin-top: 150%;}
+	60% {margin-top: -5%;}
+	100% {margin-top: 0%;}
+}
+
+#contenido {}
+
+header {background-color: #5b7989;
+border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;}
+
+#titulo h1 {
+color: white;
+text-shadow: 2px 2px #02010a;}
+
+#menu nav a{color: white;}
+
+.actual {text-decoration: none;}
+
+article#imagen_central 
+{background-color: #82c3a6;
+padding: 2em;}
+
+article#imagen_central img
+{width: 100%;}
+
+article#imagen_secundaria 
+{background-color: #d5c75f;
+border: 1px solid #d5c75f;
+padding: 2em;}
+
+article#imagen_secundaria picture#paisajes img
+{-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;}
+
+article#imagen_secundaria picture#paisajes img:hover
+{-webkit-transform: rotate(10deg);
+-moz-transform: rotate(10deg);
+-o-transform: rotate(10deg);
+-ms-transform: rotate(10deg);
+transform: rotate(10deg);
+box-shadow: 2px 2px 2px #82c3a6;
+-moz-box-shadow: 2px 2px 2px #82c3a6;
+-webkit-box-shadow: 2px 2px 2px #82c3a6;}
+
+article#imagen_secundaria picture#retratos img
+{-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;}
+
+article#imagen_secundaria picture#retratos img:hover
+{-webkit-transform: translate(20px, -5px);
+-moz-transform: translate(20px, -5px);
+-o-transform: translate(20px, -5px);
+-ms-transform: translate(20px, -5px);
+transform: translate(20px, -5px);
+box-shadow: 2px 2px 2px #82c3a6;
+-moz-box-shadow: 2px 2px 2px #82c3a6;
+-webkit-box-shadow: 2px 2px 2px #82c3a6;}
+
+article#imagen_secundaria figcaption 
+{text-align: center;
+font-weight: bold;
+font-size: 1.3em;
+margin-top: 0.5em;
+color: black;}
+
+article a 
+{color: black;}
+
+#paisajesretratos
+{background-color: #d5c75f;
+border: 1px solid #d5c75f;
+padding: 2em;}
+
+#paisajesretratos > article > picture:first-child > img:first-child
+{filter:blur(10px);
+-webkit-filter:blur(10px);}
+
+#paisajesretratos > article > picture:nth-child(even) > img
+{filter:grayscale(100%);
+-webkit-filter:grayscale(100%);}
+
+#paisajesretratos > article > picture:nth-child(3) > img
+{filter:sepia(90%);
+-webkit-filter:sepia(90%);}
+
+footer 
+{background-color: #c6d5c5;
+border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+padding: 2em;}
+
+footer a 
+{color: black;}
+
+footer img 
+{margin-right: 0.5em;
+box-shadow: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;}
+
+
+
+
+
+
+
