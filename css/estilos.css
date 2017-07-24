@@ -126,4 +126,130 @@ box-shadow: none;
 
 
 
+@media (min-width: 900px) { 
+	
+#contenido
+{margin: 0.5em auto;
+width: 900px;}
 
+header 
+{display: flex;
+display: -webkit-flex;}
+
+#titulo 
+{margin-left: 1em;
+width: 70%;
+line-height: 5em;} 
+
+#titulo h1 
+{margin-left: 0.6em;} 
+
+#menu 
+{width: 30%;
+margin-right: 0.3em;
+line-height: 5em;}
+
+#menu nav a
+{font-size: 1.3em;
+margin-left: 1em;
+font-weight: bold;}
+
+article#imagen_secundaria 
+{display: flex;
+display: -webkit-flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+-webkit-justify-content: space-between;
+justify-content: space-between;}
+
+#paisajesretratos 
+{display: flex;
+display: -webkit-flex;
+-webkit-flex-direction: column;
+flex-direction: column;}
+
+section#paisajesretratos img 
+{width: 30%;
+margin: 1.4em 0.7em;}
+
+footer
+{display: flex;
+display: -webkit-flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+-webkit-justify-content: space-between;
+justify-content: space-between;}
+
+footer div
+{width: 22%;}
+
+}
+
+
+
+
+@media (max-width: 900px) {
+#contenido 
+{margin: 0.5em;
+width: 96%;}
+
+#titulo 
+{width: 100%;
+text-align: center;} 
+
+#titulo h1 
+{padding: 0.6em 1.5em 0.5em 1.5em;}
+
+#menu 
+{width: 100%;
+text-align: center;
+padding-bottom: 1.5em;}
+
+#menu nav a
+{font-size: 1.3em;
+margin-left: 1em;
+font-weight: bold;}
+
+article#imagen_secundaria 
+{display: flex;
+display: -webkit-flex;
+-webkit-flex-direction: column;
+flex-direction: column;
+-webkit-justify-content: center;
+justify-content: center;
+margin-bottom: 0px;}
+
+article#imagen_secundaria a.mrgbttm 
+{margin-bottom: 1.5em;}
+
+picture#paisajes img 
+{width: 100%;}
+
+picture#retratos img 
+{width: 100%;}
+
+#paisajesretratos 
+{display: flex;
+display: -webkit-flex;
+-webkit-flex-direction: column;
+flex-direction: column;}
+
+#paisajesretratos article picture img 
+{width: 100%;	
+text-align: center;
+-webkit-justify-content: space-between;
+justify-content: space-between;
+margin-bottom: 2.2em;}
+
+footer
+{display: flex;
+display: -webkit-flex;
+-webkit-flex-direction: column;
+flex-direction: column;
+-webkit-justify-content: space-between;
+justify-content: space-between;}
+
+footer div
+{margin-bottom: 1.5em;}
+
+}
